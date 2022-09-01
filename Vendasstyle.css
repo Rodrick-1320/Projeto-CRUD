@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+}
+
+.title{
+	text-align: center;
+	background-color: lightgray;
+}
+
+body{
+	background-color: white;
+}
+
+header{
+	background-color: royalblue;
+	padding: 10px;
+	text-align: center;
+}
+
+main{
+	padding: 30px 50px;
+
+}
+
+.card{
+	background-color: lightgray;
+	border: 1px solid blueviolet;
+	padding: 20px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.lineInput{
+	display: grid;
+	margin-bottom: 10px;
+}
+
+input{
+	padding: 10px;
+	border: 1px solid blueviolet;
+	border-radius: 3px;
+	outline: 0;
+}
+
+button{
+	border: 0;
+	padding: 10px;
+	outline: 0;
+	background-color: royalblue;
+	color:  white;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+button:hover{
+		background-color: slateblue;
+}
+
+.content{
+	margin-top: 15px;
+}
+
+table{
+	border-collapse: collapse;
+	border: 1px solid blueviolet;
+	width: 100%;
+}
+
+table th{
+	background-color: lightgray;
+}
+
+table th, td{
+	text-align: left;
+	padding: 1px 5px;
+}
+
+table td img{
+	width: 22px;
+}
+
+.center{
+	text-align: center;
+}
